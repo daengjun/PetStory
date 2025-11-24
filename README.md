@@ -1,6 +1,6 @@
 # Pet Story  
-![Java](https://img.shields.io/badge/Java-007396?style=flat&logo=java&logoColor=white)
 ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat&logo=firebase&logoColor=white)
+![Java](https://img.shields.io/badge/Java-007396?style=flat&logo=java&logoColor=white)
 ![Android](https://img.shields.io/badge/Android-3DDC84?style=flat&logo=android&logoColor=white)  
 반려동물의 사진과 일상을 기록·공유하는 전용 SNS 앱입니다.  
 다른 유저들과 반려동물의 순간을 함께 나눌 수 있습니다.  
@@ -71,8 +71,8 @@ com.example.petstory
 
 <table>
   <tr>
-   <td><img src="app/src/main/assets/chatList.png" width="300"/></td>
-   <td><img src="app/src/main/assets/chat.jpg" width="300"/></td>
+   <td><img src="app/src/main/assets/main.png" width="300"/></td>
+   <td><img src="app/src/main/assets/mypage.png" width="300"/></td>
   </tr>
 </table>
 <table>
@@ -85,10 +85,11 @@ com.example.petstory
 
 <table>
   <tr>
-    <td><img src="https://github.com/user-attachments/assets/a4cd6a13-b3eb-4dbf-b931-a6d86a84b41c" width="300"/></td>
-    <td><img src="https://github.com/user-attachments/assets/5c16b7ae-5a2b-452a-be79-1c2fdcce8c97" width="300"/></td>
+   <td><img src="app/src/main/assets/chatList.png" width="300"/></td>
+   <td><img src="app/src/main/assets/chat.jpg" width="300"/></td>
   </tr>
-</table>  
+</table>
+<table>
 
 ## 개발자  
 
