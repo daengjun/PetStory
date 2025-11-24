@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/appbar_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@color/colorWhite">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:contentDescription="@string/app_name"
+                        android:src="@mipmap/ic_launcher" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginEnd="5dp"
+                        android:text="로그인"
+                        android:textColor="#000000"
+                        android:textSize="18sp" />
+
+                </FrameLayout>
+            </androidx.appcompat.widget.Toolbar>
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                app:cardCornerRadius="3dp"
+                app:cardElevation="6dp"
+                android:background="@android:color/white">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="20dp">
+
+                    <EditText
+                        android:id="@+id/emailEditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/button"
+                        android:drawableLeft="@drawable/baseline_person_24"
+                        android:drawablePadding="10dp"
+                        android:hint="Email"
+                        android:inputType="textEmailAddress"
+                        android:padding="10dp"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/passwordEditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:background="@drawable/button"
+                        android:drawableLeft="@drawable/ic_lock"
+                        android:drawablePadding="10dp"
+                        android:hint="PASSWORD"
+                        android:inputType="textPassword"
+                        android:padding="10dp"
+                        android:textSize="12sp" />
+
+
+                    <Button
+                        android:id="@+id/loginButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="3dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="@drawable/button2"
+                        android:foreground="?attr/selectableItemBackground"
+                        android:padding="5dp"
+                        android:text="사용자 로그인" />
+
+                    <Button
+                        android:id="@+id/signUpButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="3dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/button2"
+                        android:foreground="?attr/selectableItemBackground"
+                        android:padding="5dp"
+                        android:text="회원가입 진행" />
+
+                </LinearLayout>
+
+
+
+
+
+            </androidx.cardview.widget.CardView>
+<!--            <EditText-->
+<!--                android:id="@+id/emailEditText"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="45dp"-->
+<!--                android:layout_marginLeft="20dp"-->
+<!--                android:layout_marginRight="20dp"-->
+<!--                android:layout_marginBottom="5dp"-->
+<!--                android:background="@drawable/button"-->
+<!--                android:drawableLeft="@drawable/baseline_person_24"-->
+<!--                android:drawablePadding="10dp"-->
+<!--                android:hint="Email"-->
+<!--                android:inputType="textEmailAddress"-->
+<!--                android:padding="10dp"-->
+<!--                android:textSize="12sp" />-->
+
+<!--            <EditText-->
+<!--                android:id="@+id/passwordEditText"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="45dp"-->
+<!--                android:layout_marginLeft="20dp"-->
+<!--                android:layout_marginRight="20dp"-->
+<!--                android:layout_marginBottom="5dp"-->
+<!--                android:background="@drawable/button"-->
+<!--                android:drawableLeft="@drawable/ic_lock"-->
+<!--                android:drawablePadding="10dp"-->
+<!--                android:hint="PASSWORD"-->
+<!--                android:inputType="textPassword"-->
+<!--                android:padding="10dp"-->
+<!--                android:textSize="12sp" />-->
+
+
+
+            <Button
+                android:id="@+id/findPasswordButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="30dp"
+                android:background="#00ff0000"
+                android:text="비밀번호 찾기"
+                android:textColor="@color/colorPrimary" />
+
+        </LinearLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+
+</ScrollView>
