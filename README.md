@@ -2,7 +2,8 @@
 ![Java](https://img.shields.io/badge/Java-007396?style=flat&logo=java&logoColor=white)
 ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat&logo=firebase&logoColor=white)
 ![Android](https://img.shields.io/badge/Android-3DDC84?style=flat&logo=android&logoColor=white)  
-반려동물의 사진과 일상을 기록하고 다른 유저들과 공유할 수 있는 반려동물 전용 SNS 앱입니다.
+반려동물의 사진과 일상을 기록·공유하는 전용 SNS 앱입니다.  
+다른 유저들과 반려동물의 순간을 함께 나눌 수 있습니다.  
 
 ## 주요 기능
 
