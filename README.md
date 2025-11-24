@@ -49,7 +49,7 @@ com.example.petstory
   
   
 ## DB 구조
-<img width="967" height="1065" alt="Untitled" src="https://github.com/user-attachments/assets/01cf078e-bc59-4947-98b9-cccca8553c32" />   
+![DB](app/src/main/assets/DB.png)
   
   
 ## 실제 동작 화면
@@ -67,8 +67,8 @@ com.example.petstory
 
 <table>
   <tr>
-    <td><img src="https://github.com/user-attachments/assets/468a9619-7af7-402c-ae42-d9ec1bf16e67" width="300"/></td>
-    <td><img src="https://github.com/user-attachments/assets/3d17395b-13ca-4202-9a31-d6bd84db4c11" width="300"/></td>
+    <td><img src="![chat](app/src/main/assets/chat.jpg)" width="300"/></td>
+   <td><img src="app/src/main/assets/chat.jpg" width="300"/></td>
   </tr>
 </table>
 <table>
@@ -89,3 +89,6 @@ com.example.petstory
 
 - GitHub: [daengjun](https://github.com/daengjun)
 - Email: jundroidx@gmail.com
+
+
+
