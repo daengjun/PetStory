@@ -67,14 +67,15 @@ com.example.petstory
 
 <table>
   <tr>
-    <td><img src="![chat](app/src/main/assets/chat.jpg)" width="300"/></td>
+   <td><img src="app/src/main/assets/chatList.png" width="300"/></td>
    <td><img src="app/src/main/assets/chat.jpg" width="300"/></td>
   </tr>
 </table>
 <table>
+  
   <tr>
-    <td><img src="https://github.com/user-attachments/assets/37ac05c3-4b24-43cd-9dbd-5b534223bb7d" width="300"/></td>
-    <td><img src="https://github.com/user-attachments/assets/e9f3ebf6-1425-4de2-b69e-e6c7758e28e3" width="300"/></td>
+   <td><img src="app/src/main/assets/menu.jpg" width="300"/></td>
+   <td><img src="app/src/main/assets/upload.jpg" width="300"/></td>
   </tr>
 </table>
 
